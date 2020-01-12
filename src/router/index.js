@@ -1,14 +1,44 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Arabic from '../views/Arabic.vue'
+import Germany from '../views/Germany.vue'
+import France from '../views/France.vue'
+import Italy from '../views/Italy.vue'
+import Japan from '../views/Japan.vue'
+import Russia from '../views/Russia.vue'
+import USA from '../views/USA.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/arabic',
-    name: 'arabic',
-    component: Arabic
+    path: '/germany',
+    name: 'germany',
+    component: Germany
+  },
+  {
+    path: '/france',
+    name: 'france',
+    component: France
+  },
+  {
+    path: '/italy',
+    name: 'italy',
+    component: Italy
+  },
+  {
+    path: '/japan',
+    name: 'japan',
+    component: Japan
+  },
+  {
+    path: '/russia',
+    name: 'russia',
+    component: Russia
+  },
+  {
+    path: '/usa',
+    name: 'usa',
+    component: USA
   }
 ]
 
