@@ -2,7 +2,7 @@
     <v-card
         class="mx-auto"
         max-width="400"
-        color="black"
+        color="grey darken-2"
     >
         <v-img
             class="white--text align-end"
@@ -12,7 +12,7 @@
             <v-card-title>{{title}}</v-card-title>
         </v-img>
 
-        <v-card-subtitle class="pb-0">{{author}}</v-card-subtitle>
+        <v-card-subtitle class="white--text">{{author}}</v-card-subtitle>
 
         <v-card-text class="white--text">
             <div>{{descr}}</div>
