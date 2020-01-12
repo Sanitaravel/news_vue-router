@@ -2,6 +2,7 @@
     <v-card
         class="mx-auto"
         max-width="400"
+        max-height="400"
         color="grey darken-2"
     >
         <v-img
@@ -23,14 +24,14 @@
             color="orange"
             text
             >
-            Share
+            Поделится
             </v-btn>
 
             <v-btn @click="explore()"
             color="orange"
             text
             >
-            Explore
+            Узнать больше
             </v-btn>
         </v-card-actions>
     </v-card>
