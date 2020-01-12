@@ -42,7 +42,7 @@
         <v-row
           align="center"
           justify="center"
-        >ч
+        >
         </v-row>
       </v-container>
     </v-content>
