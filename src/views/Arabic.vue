@@ -1,9 +1,6 @@
 <template>
   <v-app id="nav">
     <v-content>
-      <v-list-item-content>
-
-      </v-list-item-content>
       <v-container
         class="text-center"
       >
@@ -19,9 +16,9 @@
     </v-content>
 
     <v-footer 
-    color="indigo"
+    color="deep-purple accent-4"
      app>
-      <span class="white--text">&copy; 2019</span>
+      <span class="white--text">&copy; 2020</span>
     </v-footer>
   </v-app>
 </template>
