@@ -18,7 +18,6 @@
           <v-icon>mdi-magnify</v-icon>
         </v-btn>
       </v-app-bar>
-
     <v-content>
       <v-container
       class="text-center"
@@ -30,10 +29,10 @@
       <router-view/>
     </v-content>
     <v-footer
-      color="indigo"
+      color="deep-purple accent-4"
       app
     >
-      <span class="white--text">&copy; 2019</span>
+      <span class="white--text">&copy; 2020</span>
     </v-footer>
   </v-app>
 </template>
