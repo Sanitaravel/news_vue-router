@@ -23,7 +23,7 @@
       class="text-center"
       >
         <router-link to='/'>Домашняя страница</router-link>
-        <h1>Добро пожаловать в новостной дайджест. Выберите одну из стран.</h1>
+        <h1>Добро пожаловать в новостной дайджест. Выберите одну из стран:</h1>
         <router-link to='/germany'>Германия </router-link>|
         <router-link to='/france'>Франция </router-link>|
         <router-link to='/italy'>Италия </router-link>|
