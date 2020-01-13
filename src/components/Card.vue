@@ -2,7 +2,6 @@
     <v-card
         class="mx-auto"
         max-width="400"
-        max-height="400"
         color="grey darken-2"
     >
         <v-img
